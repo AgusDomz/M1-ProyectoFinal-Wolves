@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    padding-top: 90px;
+}
+
+/* inicio navbar */
+.navbar {
+    max-height: 90px;
+    background-color: #212529;
+}
+
+.nav-item{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.nav-item:hover {
+    color: yellow;
+}
+
+.btn0 {
+    height: 38px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+    margin-left: -30px;
+}
+
+.btn1,
+.btn2 {
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 8px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+
+.btn2:hover {
+    color: black;
+}
+
+  /* fin navbar */
+
+.carousel{
+    width: 105%;
+    margin: 0%;
+    left: -1%;
+
+}
+.img-fluid{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 2px solid #ffc107;
+    border-radius: 50%;
+}
+
+.cajaComent {
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    min-width: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.form_cometarios {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+@media (max-width: 280px) {
+    .form_cometarios {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.rezise {
+    resize: none;
+}
+/* inicio modal login */
+
+.imgPubli {
+    max-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+    /* Cambiar el color del fondo */
+.modal-content {
+    background: linear-gradient(to bottom right, #131313, #8a8a8a) ;
+    color: white;
+    border: none;
+    }
+
+        /* Estilos para los botones de redes sociales */
+.btn-floating {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.btn-floating:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px #ffffff;
+}
+
+.btn-floating i {
+    font-size: 24px;
+}
+
+.btn-floating.facebook {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-floating.facebook:hover {
+    background-color: #0341c8;
+}
+
+.btn-floating.twitter {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-floating.twitter:hover {
+    background-color: #359ff7;
+}
+
+.btn-floating.google {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-floating.google:hover {
+    background-color: #cc3329;
+}
+
+.btn-floating.instagram {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-floating.instagram:hover {
+    background-color: #cc2d94;
+}
+.btn-floating.github {
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn-floating.github:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.link-secondary {
+    text-decoration: none;
+    color: #493dfc;
+}
+.link-secondary:hover {
+    color: #fff;
+}
+/*  fin modal login */
